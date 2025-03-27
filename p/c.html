@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bon Appétit</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+          integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" 
+          crossorigin="anonymous">
+    <!-- Bootstrap JS and JQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" 
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" 
+            crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4; /* Light gray background to soften the contrast */
+            color: #333333; /* Dark text for readability */
+        }
+
+        header {
+            background-color: #770513; /* Bold yellow for dynamic racing feel */
+            color: white;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            gap: 15px;
+            text-transform: uppercase;
+        }
+
+        header img {
+            height: 65px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        ul ol {
+            padding-left: 20px;
+        }
+
+        ul ol li a {
+            text-decoration: none;
+            font-weight: bold;
+            color: #770513; /* Gold links for a sleek, performance-inspired look */
+        }
+
+        ul ol li a:hover {
+            text-decoration: underline;
+            color: #FF5722; /* Vibrant orange on hover */
+        }
+
+        .about-image img {
+            max-width: 100%;
+            height: 400px;
+            width: 400px;
+            border-radius: 10px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.8); /* Bold shadow to make the image pop */
+        }
+
+        .container-fluid {
+            padding: 30px;
+        }
+
+        footer {
+            background-color: #212121;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            font-size: 16px;
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .about-image {
+                margin-top: 20px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <h1 class="d-flex align-items-center mb-0">
+                    <img src="p.png" class="rounded-pill mr-2">
+                    <a href="c.html"><strong style="color: #FFFFFF;">Bon Appétit</strong></a>
+                </h1>
+                <nav>
+                    <a href="c.html" class="btn btn-light">Home</a>
+                    <a href="gallery.html" class="btn btn-light">Gallery</a>
+
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2 style="color: #770513;"><b>Continental Recipes</b></h2>
+                <ul>
+                    <li>
+                        This page is your culinary compass, guiding you through the vast and exciting universe of recipes. Whether you're a seasoned chef or a curious beginner, you'll find a wealth of information here to inspire and delight your taste buds.
+                    </li>
+                    <li>
+                        We'll delve into the heart of what a recipe truly is: a set of instructions and ingredients that, when followed, transform simple elements into delicious creations. From ancient traditions to modern innovations, we'll explore the diverse world of recipes and uncover the magic that happens in the kitchen.
+                    </li>
+                    <li>
+                        Here are some delicious cuisines.
+                        <br><br>   
+                        <ol>
+                            <li><a href="guj.html" target="_self">Gujarati</a></li>
+                            <li><a href="thai.html" target="_self">Thai</a></li>
+                            <li><a href="amr.html" target="_self">American</a></li>
+                            <li><a href="pnb.html" target="_self">Punjabi</a></li>
+                            <li><a href="chn.html" target="_self">Chinese</a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="col-md-6 about-image text-center">
+                <img src="amerChickenFriedSteak.webp" alt="Cuisine" title="Cuisine">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Bon Appétit. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
